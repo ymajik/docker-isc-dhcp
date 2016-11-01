@@ -1,4 +1,4 @@
-# Docker tftpserver
+# Docker isc dhcp server
 
 [![Docker Automated build](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)](https://hub.docker.com/r/ymajik/docker-isc-dhcp/builds/)  
 
