@@ -17,6 +17,5 @@ EXPOSE 647/udp
 # dhcp failover2
 EXPOSE 847
 EXPOSE 847/udp
-ENTRYPOINT ["/dhcpd"]
 CMD ["-f", "-cf", "/etc/dhcp/dhcpd.conf", "--no-pid"]
 
