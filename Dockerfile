@@ -5,7 +5,7 @@ apt-get update && \
 apt-get install -y netmask isc-dhcp-server
 
 ADD dhcpd.conf /etc/dhcp/dhcpd.conf
-ADD service.conf /etc/default/isc-dhcp-server
+#ADD service.conf /etc/default/isc-dhcp-server
 EXPOSE 67
 EXPOSE 67/udp
 # ipv6 dhcp
